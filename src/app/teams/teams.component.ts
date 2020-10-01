@@ -8,11 +8,11 @@ import { from } from 'rxjs';
   styleUrls: ['./teams.component.scss']
 })
 export class TeamsComponent implements OnInit {
-public teamDataFirst;
-public teamDataSec
-public matchData
-public showDetails =false;
-public teamDetails
+ teamDataFirst;
+ teamDataSec;
+ matchData;
+ showDetails =false;
+ teamDetails;
   constructor(private matchService:MatchService) { }
 
   ngOnInit() {
